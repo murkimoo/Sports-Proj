@@ -1,0 +1,17 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: rgb(249, 250, 251);
+}
+
+.content {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .wrapper {
+    background-color: rgb(17, 24, 39);
+  }
+}

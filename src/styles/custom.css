@@ -1,0 +1,19 @@
+/* Custom styles without Tailwind dependencies */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gray-50 {
+  background-color: rgb(249, 250, 251);
+}
+
+.dark\:bg-gray-900 {
+  background-color: rgb(17, 24, 39);
+}
